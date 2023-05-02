@@ -1,13 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Signup | Imaginary</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/style.css" rel="stylesheet">
-  </head>
-  <body>
-  
-    <script src="js/script.js"></script>
-  </body>
+
+<head>
+  <title>Signup | Imaginary</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class='base'>
+    <div class='imageleft'>
+      <div class='ribbon'>
+        <!-- <div class='logo'></div> -->
+        <img class = 'logo' src="assets/odin-lined.png"></img>
+        <div class='logo_text'>ODIN</div>
+      </div>
+      <div class='credits'>
+        Photo by Halie West on Unsplash
+      </div>
+    </div>
+    <div class='right'>
+      <div class='top'>
+        This is not a real online service! You know you need something like this in your life to help you
+        realize your deepest dreams and desires. So, why not sign up and see what happens?
+
+        You know you want to.
+      </div>
+      <div class='mid'>
+        <div>
+          Let's get started!
+        </div>
+        <form>
+          <div class='formrow'>
+            <div class='formcol'>
+              <label for="firstname">First Name</label>
+              <input type="text" name="firstname" value="">
+            </div>
+            <div class='formcol'>
+              <label for="lastname">Last Name</label>
+              <input type="text" name="lastname" value="">
+            </div>
+          </div>
+          <div class='formrow'>
+            <div class='formcol'>
+              <label for="email">Email</label>
+              <input type="text" name="email" value="">
+            </div>
+            <div class='formcol'>
+              <label for="phone">Phone</label>
+              <input type="text" name="phone" value="">
+            </div>
+          </div>
+          <div class='formrow'>
+            <div class='formcol'>
+              <label for="password">Password</label>
+              <input type="text" name="password" value="">
+            </div>
+            <div class='formcol'>
+              <label for="password">Confirm Password</label>
+              <input type="text" name="password" value="">
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class='bottom'>
+
+        <input type="submit" name="submit" value="Sign Up">
+        <p>Already have an account? <a href="">Log in</a></p>
+      </div>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
 </html>

@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "Norse-Bold";
+  src: url("../assets/Norse-Bold.otf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.base{
+  display: flex;
+}
+
+.imageleft {
+  flex: 1;
+  height: 100vh;
+  background-image: url("../assets/greenleaf.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.ribbon {
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 90px;
+  font-family: "Norse-Bold";
+  text-align: center;
+  padding: 5px;
+  color: white;
+  margin-top: auto;
+}
+.credits{
+  color: white;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: auto;
+}
+.right {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mid{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  align-self: stretch;
+  border: 1px solid black;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  border: 1px solid black;
+}
+.formrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.formcol {
+  border: 1px solid black;
+  display: flex;
+  align-items:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
