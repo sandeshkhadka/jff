@@ -36,37 +36,38 @@
           <div class='formrow'>
             <div class='formcol'>
               <label for="firstname">First Name</label>
-              <input type="text" name="firstname" value="">
+              <input type="text" name="firstname" value="" required>
             </div>
             <div class='formcol'>
               <label for="lastname">Last Name</label>
-              <input type="text" name="lastname" value="">
+              <input type="text" name="lastname" value="" required>
             </div>
           </div>
           <div class='formrow'>
             <div class='formcol'>
               <label for="email">Email</label>
-              <input type="email" name="email" value="">
+              <input type="email" name="email" value="" required>
             </div>
             <div class='formcol'>
               <label for="phone">Phone</label>
-              <input type="tel" name="phone" value="">
+              <input type="tel" name="phone" value="" required>
             </div>
           </div>
           <div class='formrow'>
             <div class='formcol'>
               <label for="password">Password</label>
-              <input type="password" name="password" value="">
+              <input type="password" name="password" value="" oninput="validatePassword()" required>
+              <div class = 'passwordMessage'></div>
             </div>
             <div class='formcol'>
               <label for="password">Confirm Password</label>
-              <input type="password" name="password" value="">
+              <input type="password" name="passwordConfirm" value="" required oninput="validatePassword()">
             </div>
           </div>
         </form>
       </div>
       <div class='bottom'>
-        <input type="submit" name="submit" value="Sign Up">
+        <input type="submit" name="submit" value="Sign Up" required>
         <p>Already have an account? <a href="">Log in</a></p>
       </div>
     </div>

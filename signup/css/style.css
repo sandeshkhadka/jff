@@ -98,6 +98,7 @@ form {
   width: 50%;
   border-radius: 5px;
   border: 1px solid #D9D9D9;
+  font-size: 20px;
 }
 
 .bottom {
@@ -113,7 +114,7 @@ form {
   height: 100%;
   /* font-weight: bold; */
 }
- .bottom > input{
+ .bottom > input[type="submit"]{
    background-color: #596D48;
    font-weight: bold;
    font-size: 20px;
@@ -122,19 +123,39 @@ form {
    border: none;
    border-radius: 8px;
    width: 300px;
+   cursor: pointer;
+ }
+ input[type="submit"]:hover{
+   background-color: #4B5C3F;
  }
  .bottom > p > a{
   text-decoration: none;
   color: #596D48;
   font-weight: bold;
  }
+/* input:invalid{ */
+  /* border: 2px solid red; */
+/* } */
 
+.formcol > input:focus {
+  border: none;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.342);
+  outline: none;
+}
 
+.formcol > input:invalid:focus {
+  border: 2px solid rgb(255, 69, 100)
+}
 
+.formcol > input:focus:valid {
+  border: rgb(0, 183, 255) 2px solid;
+}
 
-
-
-
+.passwordMessage{
+  font-size: 16px;
+  color: red;
+  font-weight: bold;
+}
 
 
 
